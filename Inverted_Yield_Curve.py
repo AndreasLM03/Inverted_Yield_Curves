@@ -11,7 +11,6 @@ import matplotlib.dates as mdates
 from matplotlib.patches import Rectangle
 import os
 
-
 yield_ = pd.DataFrame(columns=['1Mo','2Mo','3Mo','6Mo','1Yr','2Yr','3Yr','5Yr','7Yr','10Yr','20Yr','30Yr'])
 time_range = range(1990,2023,1)
 base_url = "https://home.treasury.gov/resource-center/data-chart-center/interest-rates/TextView?type=daily_treasury_yield_curve&field_tdr_date_value="
